@@ -1,0 +1,20 @@
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl
+
+# Terraform identity and access parameters example
+# Populate with the parameters to be used in the installation
+
+# Authentication
+tenancy_ocid         = "ocid1.tenancy.oc..."
+user_ocid            = "ocid1.user.oc1....."
+fingerprint          = "d4:9b:ab:29:......."
+private_key_path     = "~/.oci/.........pem"
+
+region              = "us-ashburn-1"
+compartment_ocid = "ocid1.compartment.oc1......"
+
+workspace_display_name = "DIS Reference Architecture v0.1"
+workspace_is_private_network_enabled = "true"
+workspace_subnet_id = "ocid1.subnet.oc1....................."
+workspace_vcn_id = "ocid1.vcn.oc1.phx......................."
+bucket_name = "your_bucket_name"
+file_name = "your_object.zip"
