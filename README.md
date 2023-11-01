@@ -5,10 +5,7 @@ This repository contains sample terraform scripts for OCI Data Integration.
 Example
 1. cd import
 2. change the values in the file terraform.tfvars.example for your environment, you will need;
-   * Tenancy ocid         = "ocid1.tenancy.oc..."
-   * User ocid            = "ocid1.user.oc1....."
-   * Fingerprint          = "..."
-   * Private Key Path     = "~/.oci/.........pem"
+   * Tenancy ocid for object storage export file = "ocid1.tenancy.oc..."
    * Region              = "us-ashburn-1"
    * Compartment ocid to create the workspace = "ocid1.compartment.oc1......"
    * Workspace display name to create = "DIS Reference Architecture v0.1"

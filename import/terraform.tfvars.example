@@ -5,9 +5,6 @@
 
 # Authentication
 tenancy_ocid         = "ocid1.tenancy.oc..."
-user_ocid            = "ocid1.user.oc1....."
-fingerprint          = "d4:9b:ab:29:......."
-private_key_path     = "~/.oci/.........pem"
 
 region              = "us-ashburn-1"
 compartment_ocid = "ocid1.compartment.oc1......"
