@@ -7,7 +7,7 @@ Example
 2. change the values in the file terraform.tfvars.example for your environment, you will need;
    Tenancy ocid         = "ocid1.tenancy.oc..."
    User ocid            = "ocid1.user.oc1....."
-   Fingerprint          = "d4:9b:ab:29:......."
+   Fingerprint          = "..."
    Private Key Path     = "~/.oci/.........pem"
 
    Region              = "us-ashburn-1"
