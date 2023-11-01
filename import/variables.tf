@@ -1,3 +1,4 @@
+variable "principal" { }
 variable "tenancy_ocid" { }
 variable "bucket_name" { }
 variable "workspace_display_name" {}

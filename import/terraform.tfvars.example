@@ -3,6 +3,9 @@
 # Terraform identity and access parameters example
 # Populate with the parameters to be used in the installation
 
+# principal is user using .oci/config or instance principal (CloudShell)
+principal         = "user"
+
 # Authentication
 tenancy_ocid         = "ocid1.tenancy.oc..."
 
